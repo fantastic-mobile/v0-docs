@@ -1,0 +1,70 @@
+/* 侧边栏 */
+:root {
+  --vp-sidebar-width: 294px;
+}
+/* 字体 */
+:root {
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'Fira Code', 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+/* 首页 */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #AE3FF5 30%,
+    #6EC0F9
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #6EC0F9 50%,
+    #0eeeee 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
+}
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+.VPFeature {
+  position: relative;
+}
+.VPFeature .icon {
+  margin-bottom: 8px;
+}
+.VPFeature .title {
+  position: absolute;
+  top: 36px;
+  left: 85px;
+  font-size: 18px;
+}
+/* medium-zoom */
+.medium-zoom-overlay {
+  z-index: 30;
+}
+.medium-zoom-image {
+  z-index: 30;
+  max-height: 500px;
+}
+/* 专业版 badge */
+.VPBadge.pro {
+  border-color: goldenrod;
+  color: #333;
+  background-color: #e7c605;
+}
+a.cta {
+  text-align: center;
+  border-radius: 8px;
+}
+a.cta:hover {
+  border-color: var(--vp-c-brand);
+  background-color: var(--c-bg-accent);
+}
+a.cta.buy {
+  border-color: goldenrod;
+}
