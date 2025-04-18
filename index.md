@@ -15,9 +15,6 @@ hero:
     - theme: brand
       text: 开始
       link: /guide/intro
-    - theme: alt
-      text: 更新日志
-      link: /guide/changelog
 
 features:
 - icon: 💪

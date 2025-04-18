@@ -2,10 +2,10 @@ import taskLists from 'markdown-it-task-lists'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Fantastic-mobile 官方文档',
+  title: 'Fantastic-mobile 文档 (v0)',
   description: '自成一派的移动端 H5 框架，采用 Vue3 + Vite 技术栈。',
   lang: 'zh-CN',
-  base: '/',
+  base: '/v0-docs/',
   head: [
     ['meta', { name: 'keywords', content: 'vue,vite,router,vuex,pinia,typescript,template,h5,mobile,移动端,模板' }],
     ['keywords', { content: 'vue,vite,router,vuex,pinia,typescript,template,h5,mobile,移动端,模板' }],
@@ -63,7 +63,6 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
           text: '指引',
           items: [
             { text: '文档说明', link: '/guide/intro' },
-            { text: '为什么选择我们 ?', link: '/guide/why' },
             { text: '更新日志', link: '/guide/changelog' },
           ],
           collapsed: false,
